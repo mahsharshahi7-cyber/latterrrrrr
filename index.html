@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dil Ki Baat - Letter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #8b263e;
+            --accent-color: #e8a598;
+            --bg-color: #fcf8f5;
+            --card-bg: #ffffff;
+            --text-color: #332226;
+            --border-color: #f2d6cf;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: radial-gradient(#e8a598 0.5px, transparent 0.5px), radial-gradient(#e8a598 0.5px, #fcf8f5 0.5px);
+            background-size: 20px 20px;
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 30px 15px;
+        }
+
+        .poster-container {
+            position: relative;
+            background: var(--card-bg);
+            max-width: 800px;
+            width: 100%;
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(139, 38, 62, 0.15);
+            border: 2px solid var(--border-color);
+        }
+
+        /* Floral Corner Decor */
+        .flower-decor {
+            position: absolute;
+            font-size: 2.2rem;
+            opacity: 0.8;
+            user-select: none;
+        }
+
+        .top-left { top: 15px; left: 15px; }
+        .top-right { top: 15px; right: 15px; }
+        .bottom-left { bottom: 15px; left: 15px; }
+        .bottom-right { bottom: 15px; right: 15px; }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+            border-bottom: 2px dashed var(--accent-color);
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3.5rem;
+            color: var(--primary-color);
+        }
+
+        header p {
+            font-size: 0.95rem;
+            color: #7a5c61;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .letter-content {
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .paragraph {
+            margin-bottom: 20px;
+            background: #fffaf9;
+            padding: 15px 20px;
+            border-left: 4px solid var(--accent-color);
+            border-radius: 0 10px 10px 0;
+            position: relative;
+        }
+
+        .paragraph::after {
+            content: "🌸";
+            position: absolute;
+            right: 15px;
+            bottom: 10px;
+            font-size: 0.8rem;
+            opacity: 0.5;
+        }
+
+        .highlight-box {
+            background: #fdf0ed;
+            border: 2px dashed var(--primary-color);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 25px 0;
+            text-align: center;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .names-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 15px 0;
+        }
+
+        .name-tag {
+            background: var(--accent-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .urgent-note {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 1.3rem;
+            font-family: 'Dancing Script', cursive;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(139, 38, 62, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster-container">
+        <!-- Floral Decorations -->
+        <div class="flower-decor top-left">🌺🌸🌿</div>
+        <div class="flower-decor top-right">🌿🌸🌺</div>
+        <div class="flower-decor bottom-left">🌺🌸🌿</div>
+        <div class="flower-decor bottom-right">🌿🌸🌺</div>
+
+        <header>
+            <h1>Dil Ki Baat</h1>
+            <p>🌸 Letter, Nigar ki di hui 🌸</p>
+        </header>
+
+        <div class="letter-content">
+            
+            <div class="paragraph">
+                Jo man me aa raha hai hum likh rahe hain. Kahin galti hoga toh samajh lena aur writing kharab hai toh samajhne ka koshish karna.
+            </div>
+
+            <div class="paragraph">
+                Dekho! Abhi jo bhi chal raha hai, woh abhi ke liye theek-thaak hai. Lekin hum hamesha saath ek dusre ke saamne nahi rahenge. Kuch mahino ke baad tum kahin aur rahoge aur hum kahin aur. Baat zyada ghumate nahi hain, seedhe mudde pe aate hain.
+            </div>
+
+            <div class="paragraph">
+                Humko pata hai ki tum bhi humse pyaar karte ho, yeh baat sahi hai isme koi shak nahi hai aur yeh baat humse tum chupa nahi sakte. Par tum humse baat kyun nahi karna chahte ho yeh humko nahi pata. Par agar koi kaaran / problem hai toh humse baat karne me bata sakte ho. Mere khayal se har problem ka solution hota hai.
+            </div>
+
+            <div class="paragraph">
+                Ya agar tumko career me focus karna hai, distract nahi hona hai, humse baat karke toh yeh bhi bata do. Kam se kam tasalli toh hoga, hum intezaar kar lenge. Lekin jo bhi baat hai tumko bolna padega apne se humko.
+            </div>
+
+            <div class="paragraph">
+                Humse baat karne se tumhara career par effect nahi padne denge. Par agar yeh baat hai toh bhi hum agree karte hain. Agar mere me kuch kami hai ya tum jo chahte ho humse woh humme nahi hai toh bata do, hum usme sudhaar karenge. Kami toh har insaan me hoti hai, kuch mere me bhi hai. Agar woh kami mere saamne laoge toh hum usme sudhaar karenge.
+            </div>
+
+            <div class="paragraph">
+                Haan humko pata hai tumlog ka status bada hai par humko khud par aur mere papa par itna bharosa hai ki waqt aane tak InshaAllah humari bhi status badi hogi. Aur rahi baat ghar ki toh tumhara ghar bada hai par agle saal tak humari bhi ghar ban jayegi aur achha hi banega. Toh agar status ya paise ki baat hai toh waqt aane pe hum bhi tumlog ke jaise bade status wale ho jayenge. Agar aisa nahi hua toh tum bologe toh tumhara peecha karna chhod denge.
+            </div>
+
+            <div class="paragraph">
+                Toh agar career, mere andar kami ya status ke wajah se tum humse baat nahi karna chahte ho toh befikar ho ke bolo humko. Har kuch ka solution hum milke nikal lenge. Par humse bolo!
+            </div>
+
+            <div class="paragraph">
+                Haan hum maante hain, hum sundar nahi hain aur thodi kaali bhi hain. Par tension mat lo! Meri ammi bolti hai ki 10th ke baad mera rang saaf ho jayega aur hum achha/sundar dikhne lagenge. Aur hum skincare karna start kar diye hain toh mere sundar kam hone ka bhi tension mat lena. Waqt aane pe hum bhi tumhare jaise sundar ho jayenge.
+            </div>
+
+            <div class="paragraph">
+                Tumko pata hai, meri ammi bhi chhoti me mere jaise thi, par badi hote-hote bahut sundar ho gayi. Isi tarah hum bhi bade hote-hote sundar ho jayenge!
+            </div>
+
+            <div class="paragraph">
+                Toh agar kisi bhi prakar ka kaaran hai toh humko batao, hum uska solution bhi nikal lenge. Par tum humse baat karo!
+            </div>
+
+            <div class="paragraph">
+                Aur agar family ka dar hai toh hum zyada baat nahi karenge aur sambhal ke rahenge. Aur waqt aane par hum itne kaabil aur samajhdar ho jayenge ki humari family aasaani se maan legi. Aur koi gussa bhi nahi karega. Aur humara Allah hai na, jab hume ek dusre se pyaar karwaye hain toh mila bhi denge.
+            </div>
+
+            <div class="paragraph">
+                Humko jo bolna tha bol liye. Ab tumhari marzi, itna kuch ke baad bhi bhaav khana hai toh khao, humko kya!
+            </div>
+
+            <div class="paragraph">
+                Phir se bol rahe hain, writing kharab hai samajh lena aur mazaak mat banana. Insaan itna hum bol nahi sakte isliye likh diye. Apne jaisa mat sochna ki bhaav khate hain.
+            </div>
+
+            <div class="highlight-box">
+                <p>Aur yeh Letter wala baat sirf inhi logon ko pata hai:</p>
+                <div class="names-list">
+                    <span class="name-tag">Farani appi</span>
+                    <span class="name-tag">Rumjhum</span>
+                    <span class="name-tag">Afsara</span>
+                    <span class="name-tag">Mohammad</span>
+                </div>
+                <p>Toh mat bolna ki yeh bhi sabko bata di.</p>
+            </div>
+
+            <div class="paragraph">
+                Aur iska jawab aaj hi chhutti ke baad chahiye. Hum aur Afsara hi rahenge, tum aur Mohammad hi rehna, Mujhtaba ko mat lana.
+            </div>
+
+            <div class="paragraph">
+                Aur agar iska jawab aaj nahi mila toh soch lena humse bura koi nahi hoga.
+            </div>
+
+            <div class="urgent-note">
+                🌹 Yaad rahe jawab aaj hi chahiye! 🌹
+            </div>
+
+        </div>
+
+        <footer>
+
+    </div>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    min-height:100vh;
+    overflow-x:hidden;
+    font-family:"Segoe UI",system-ui,sans-serif;
+    background:
+        radial-gradient(circle at 15% 15%,rgba(255,180,210,.45),transparent 28%),
+        radial-gradient(circle at 85% 80%,rgba(190,170,255,.35),transparent 30%),
+        linear-gradient(135deg,#fff7fa,#f8f1ff,#fffaf4);
+    color:#493b4d;
+}
+
+/* ---------- FLOWERS ---------- */
+
+.flower{
+    position:fixed;
+    z-index:0;
+    pointer-events:none;
+    font-size:38px;
+    opacity:.75;
+    animation:flowerFloat 7s ease-in-out infinite;
+}
+
+.f1{top:5%;left:3%;animation-delay:0s;}
+.f2{top:18%;right:4%;font-size:30px;animation-delay:1s;}
+.f3{bottom:12%;left:4%;font-size:32px;animation-delay:2s;}
+.f4{bottom:4%;right:5%;font-size:45px;animation-delay:3s;}
+.f5{top:48%;left:1%;font-size:24px;animation-delay:1.5s;}
+.f6{top:62%;right:2%;font-size:26px;animation-delay:2.5s;}
+
+@keyframes flowerFloat{
+    0%,100%{transform:translateY(0) rotate(-5deg);}
+    50%{transform:translateY(-15px) rotate(8deg);}
+}
+
+/* ---------- FALLING PETALS ---------- */
+
+.petal{
+    position:fixed;
+    top:-30px;
+    z-index:1;
+    pointer-events:none;
+    animation:fall linear infinite;
+}
+
+@keyframes fall{
+    0%{
+        transform:translateY(-40px) rotate(0deg);
+        opacity:0;
+    }
+
+    10%{
+        opacity:.8;
+    }
+
+    90%{
+        opacity:.8;
+    }
+
+    100%{
+        transform:translateY(110vh) translateX(80px) rotate(360deg);
+        opacity:0;
+    }
+}
+
+/* ---------- PAGE ---------- */
+
+.wrapper{
+    position:relative;
+    z-index:2;
+    width:min(920px,92%);
+    margin:auto;
+    padding:65px 0;
+}
+
+/* ---------- HERO ---------- */
+
+.hero{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.flower-icon{
+    width:92px;
+    height:92px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:rgba(255,255,255,.65);
+    border:1px solid rgba(255,255,255,.9);
+    box-shadow:
+        0 15px 45px rgba(180,120,160,.18),
+        inset 0 1px 0 white;
+    font-size:46px;
+    animation:heartbeat 3s ease-in-out infinite;
+}
+
+@keyframes heartbeat{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.06);}
+}
+
+.hero h1{
+    margin-top:22px;
+    font-family:Georgia,serif;
+    font-size:clamp(35px,7vw,62px);
+    font-weight:500;
+    color:#62485d;
+    letter-spacing:-1px;
+}
+
+.hero p{
+    margin-top:10px;
+    color:#927f91;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+/* ---------- MAIN LETTER ---------- */
+
+.letter{
+    position:relative;
+    padding:48px clamp(20px,5vw,60px);
+    border-radius:35px;
+
+    background:rgba(255,255,255,.68);
+    border:1px solid rgba(255,255,255,.9);
+
+    box-shadow:
+        0 30px 80px rgba(115,80,110,.14),
+        inset 0 1px 0 white;
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+}
+
+/* Decorative corners */
+
+.corner{
+    position:absolute;
+    font-size:45px;
+    opacity:.7;
+}
+
+.corner.tl{top:15px;left:20px;}
+.corner.tr{top:15px;right:20px;}
+.corner.bl{bottom:15px;left:20px;}
+.corner.br{bottom:15px;right:20px;}
+
+/* ---------- INTRO ---------- */
+
+.intro{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.intro h2{
+    font-family:Georgia,serif;
+    font-weight:500;
+    font-size:28px;
+    color:#684e64;
+}
+
+.intro .line{
+    width:70px;
+    height:2px;
+    margin:15px auto;
+    border-radius:5px;
+    background:linear-gradient(90deg,#e9a4c1,#b9a3df);
+}
+
+.intro p{
+    max-width:650px;
+    margin:auto;
+    line-height:1.8;
+    color:#8c7b8a;
+    font-size:14px;
+}
+
+/* ---------- MESSAGE CARDS ---------- */
+
+.messages{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.message{
+    position:relative;
+    padding:20px 23px;
+
+    background:linear-gradient(
+        135deg,
+        rgba(255,255,255,.88),
+        rgba(255,247,251,.72)
+    );
+
+    border:1px solid rgba(220,190,210,.35);
+    border-radius:20px;
+
+    box-shadow:0 8px 25px rgba(100,70,100,.06);
+
+    opacity:0;
+    transform:translateY(25px);
+
+    animation:reveal .7s forwards;
+    transition:.35s ease;
+}
+
+.message:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(120,80,120,.12);
+}
+
+@keyframes reveal{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.message::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:18px;
+    bottom:18px;
+    width:3px;
+    border-radius:10px;
+    background:linear-gradient(#e8a3bf,#b9a1df);
+}
+
+.message::after{
+    content:"🌸";
+    position:absolute;
+    right:16px;
+    top:12px;
+    font-size:14px;
+    opacity:.45;
+}
+
+.message p{
+    font-size:16px;
+    line-height:1.8;
+    color:#574957;
+    padding-right:18px;
+}
+
+/* Different spacing for each message */
+
+.message:nth-child(1){animation-delay:.1s;}
+.message:nth-child(2){animation-delay:.2s;}
+.message:nth-child(3){animation-delay:.3s;}
+.message:nth-child(4){animation-delay:.4s;}
+.message:nth-child(5){animation-delay:.5s;}
+.message:nth-child(6){animation-delay:.6s;}
+.message:nth-child(7){animation-delay:.7s;}
+.message:nth-child(8){animation-delay:.8s;}
+.message:nth-child(9){animation-delay:.9s;}
+.message:nth-child(10){animation-delay:1s;}
+.message:nth-child(11){animation-delay:1.1s;}
+.message:nth-child(12){animation-delay:1.2s;}
+.message:nth-child(13){animation-delay:1.3s;}
+.message:nth-child(14){animation-delay:1.4s;}
+.message:nth-child(15){animation-delay:1.5s;}
+
+/* ---------- LAST MESSAGE ---------- */
+
+.last{
+    margin-top:8px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,237,244,.95),
+            rgba(246,238,255,.9)
+        );
+
+    border-color:rgba(211,158,190,.45);
+
+    box-shadow:
+        0 15px 40px rgba(160,100,140,.1);
+}
+
+.last::before{
+    background:linear-gradient(#e797b7,#a891dc);
+}
+
+.last p{
+    color:#604b5d;
+}
+
+/* ---------- BOTTOM ---------- */
+
+.bottom{
+    text-align:center;
+    padding-top:40px;
+}
+
+.bottom-flower{
+    font-size:30px;
+    letter-spacing:8px;
+}
+
+.bottom p{
+    margin-top:15px;
+    font-family:Georgia,serif;
+    color:#917d8f;
+    font-size:14px;
+}
+
+/* ---------- BUTTON ---------- */
+
+.top-button{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:10;
+
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+
+    background:rgba(255,255,255,.8);
+    box-shadow:0 8px 25px rgba(100,70,100,.15);
+
+    cursor:pointer;
+    font-size:18px;
+    color:#72566b;
+
+    opacity:0;
+    pointer-events:none;
+
+    transition:.3s;
+}
+
+.top-button.show{
+    opacity:1;
+    pointer-events:auto;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:600px){
+
+    .wrapper{
+        width:94%;
+        padding:35px 0;
+    }
+
+    .letter{
+        padding:38px 15px;
+        border-radius:27px;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .hero p{
+        font-size:12px;
+    }
+
+    .flower-icon{
+        width:78px;
+        height:78px;
+        font-size:38px;
+    }
+
+    .intro h2{
+        font-size:24px;
+    }
+
+    .message{
+        padding:17px 18px;
+        border-radius:17px;
+    }
+
+    .message p{
+        font-size:14px;
+        line-height:1.75;
+    }
+
+    .corner{
+        font-size:30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Decorative flowers -->
+
+<div class="flower f1">🌸</div>
+<div class="flower f2">🌷</div>
+<div class="flower f3">🌼</div>
+<div class="flower f4">🌺</div>
+<div class="flower f5">🌿</div>
+<div class="flower f6">🌸</div>
+
+
+<div class="wrapper">
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="flower-icon">
+            🌸
+        </div>
+
+        <h1>A Few Words...</h1>
+
+       
+    </section>
+
+
+    <!-- LETTER -->
+
+    <section class="letter">
+
+        <div class="corner tl">🌿</div>
+        <div class="corner tr">🌸</div>
+        <div class="corner bl">🌷</div>
+        <div class="corner br">🌿</div>
+
+
+        <div class="intro">
+
+            <h2>Dear You, farhan ki traf se reply </h2>
+
+            <div class="line"></div>
+
+            <h4>
+                kabhi kabhi kuch baatein chhoti hoti hain, lekin unke peeche bahut saari bhavnaayein hoti hain. Ye wahi kuch baatein hain...
+            </h4>
+
+        </div>
+
+
+        <div class="messages">
+
+            <div class="message">
+                <p>
+                    Tumko kaise pta ham tumse pyar krte h<br>
+                    Is galat fehmi me mat rho
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Our ye chipane ki baat hi nyy h jo ham chipayeg
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Ham tere se baat q nyy krte?? Ye koi sawal nyy huwa<br>
+                    Our mere paas koi wajah hi nyy h tere se baat krne ka<br>
+                    Isiliye nyy krte
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Our hamko tere se Q problem hoga
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Rhi baat career pe focus krne ki to ye sab krte h,
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Tum bhi kro<br>
+                    Our apni jindagi me khush rho,
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Our jitna hamko advice de rhi h wo sab tum kro khud ke liye,
+                    mere liye ya mere bare me soch kr mat krna
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Rhi baat status ki to waisa kuch nyy h<br>
+                    Tum apni jagah shi ho our ham apne jagah..
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Ham kabhi ye sab soche hi nyy h ki tumhare andar kya kami h
+                    our kya khuubi h
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Our tum jo bak rhi h<br>
+                    Ki mera ghar bda hai status bda h,<br>
+                    Ye sab metter nyy krta h
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Our ye jo pichha krne ki baat bol rhi h<br>
+                    Wo to ham kab ka mna kr chuke hai
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Ha tum apna career pe focus kro, skin care kro,
+                    status banawo, ghr banawo, kamyab ho jawo,
+                    mere se bhi jada smart dikho, our smart boy mil jayega<br><br>
+
+                    Par plz 🙏 mujhe bhul jawo
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Our tum jo bol rhi h ki ham bhaw khate h<br>
+                    To me batana chahuga ki, bhaw khane ki chij nyy h<br>
+                    Our ye sab me hamko intrest bhi nyy h
+                </p>
+            </div>
+
+
+            <div class="message">
+                <p>
+                    Jo tum hamko dhamki de rhi h<br>
+                    Ki ajj hi zawab chahiye<br>
+                    Jo tumko ham school me nyy diye<br>
+                    Ab jo krna h karlo
+                </p>
+            </div>
+
+
+            <div class="message last">
+                <p>
+                    Our jo tum itna udh rhi h<br>
+                    Itna himmat jo aa gya h tere andar letter send karwane ka..<br><br>
+
+                    First and last galti samjh kar kuch nyy bol rhe h
+                    bas tumhare sawal ka zawab diye h<br><br>
+
+                    Agli baar se yesa krne ka sochna bhi mat. warna mere se bura koi nyy hoga<br>
+                </p>
+            </div> 
+            
+<div class="highlight-box">
+                <p>Aur ye baat in logon ke alawa kisi aur ko pata nyy hona chahiye:</p>
+                <div class="names-list">
+                    <span class="name-tag">Farani</span>
+                    <span class="name-tag">Nigar</span>
+                    <span class="name-tag">Shahi</span>
+                    <span class="name-tag">Zafar</span>
+                </div>
+                <P>yaad rhe ye baat kisi aur ko pata chala to fir humlog tumhara kya haal karenge wo humhi log jante h </P>
+            </div>
+
+
+
+        <div class="bottom">
+
+            <div class="bottom-flower">
+        
+            </div>
+
+            <p>
+            made with ❤️ by farhan and shahi
+            </p>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<!-- Back to top -->
+
+<button class="top-button" id="topBtn">
+    ↑
+</button>
+
+
+<script>
+
+/* --------------------------------
+   Falling flower petals
+-------------------------------- */
+
+const petals = ["🌸","🌷","✿","❀","🍃"];
+
+for(let i = 0; i < 18; i++){
+
+    const petal = document.createElement("div");
+
+    petal.className = "petal";
+
+    petal.textContent =
+        petals[Math.floor(Math.random() * petals.length)];
+
+    petal.style.left =
+        Math.random() * 100 + "vw";
+
+    petal.style.fontSize =
+        (10 + Math.random() * 13) + "px";
+
+    petal.style.animationDuration =
+        (7 + Math.random() * 8) + "s";
+
+    petal.style.animationDelay =
+        Math.random() * 8 + "s";
+
+    document.body.appendChild(petal);
+}
+
+
+/* --------------------------------
+   Back to top button
+-------------------------------- */
+
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+
+    if(window.scrollY > 400){
+        topBtn.classList.add("show");
+    }else{
+        topBtn.classList.remove("show");
+    }
+
+});
+
+topBtn.addEventListener("click", () => {
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+
+});
+
+
+/* --------------------------------
+   Gentle parallax effect
+-------------------------------- */
+
+document.addEventListener("mousemove", (e) => {
+
+    const flowers =
+        document.querySelectorAll(".flower");
+
+    const x =
+        (e.clientX / window.innerWidth - .5) * 12;
+
+    const y =
+        (e.clientY / window.innerHeight - .5) * 12;
+
+    flowers.forEach((flower,index) => {
+
+        flower.style.transform =
+            `translate(${x/(index+1)}px,
+                       ${y/(index+1)}px)`;
+
+    });
+
+});
+
+</script>
+
+
+
+</body>
+</html>
